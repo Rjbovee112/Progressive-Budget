@@ -1,7 +1,8 @@
 const filesToCache = [
-    './index.html',
-    './styles.css',
-    './index.js',
+    'index.html',
+    'styles.css',
+    'index.js',
+    'serviceWorker.js'
 ];
 
 const cacheName = 'myCache';
@@ -11,8 +12,8 @@ self.addEventListener('install', function (event) {
         caches.open(cacheName)
             .then(function (cache) {
                 return cache.addAll(filesToCache)
-            });
-            .cache(function (error) {
+            })
+            .catch(function (error) {
                 console.error(error);
             })
     )

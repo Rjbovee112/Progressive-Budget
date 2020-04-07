@@ -60,3 +60,14 @@ THEN that will be shown on the page, and added to their transaction history when
   * the URL to the Github repository
 
 # Progressive-Budget
+
+
+
+************
+
+I have the ablility to updated everything while online.  All that works.  I have been able to cache everything online as well.  But I have not been able to save to cache offline, then once it returns the information back online.  I have been working with a tutor to trying to get this figured out.  It is very close to being done.  And I will try to complete the rest this week.  
+
+Thanks!
+
+
+************
