@@ -18,3 +18,16 @@ self.addEventListener('install', function (event) {
             })
     )
 });
+
+
+//This runs every time the fetch function is called in our project
+self.addEventListener('fetch', function (event) {
+    if (event.request.clone(), method == 'POST') {
+
+        //detect if we are offline
+        fetch(event.request.clone()).catch(function (error) {
+            //save the information about our request 
+            //so that we can resend the data to the server when we are back online
+        });
+    }
+});
