@@ -52,9 +52,10 @@
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./serwork.js").then(reg => {
-          console.log("We found the serwork file", reg);
-        });
+        navigator.serviceWorker.register("./serviceWorker.js")
+          .then(function (reg) {
+            console.log(`Registraiont Worked!, Scope is ${reg.scope}`);
+          });
       });
     }
 
