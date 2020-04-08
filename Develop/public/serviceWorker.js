@@ -1,8 +1,8 @@
 const filesToCache = [
-    'index.html',
-    'styles.css',
-    'index.js',
-    'serviceWorker.js'
+    '/Develop/public/index.html',
+    '/Develop/public/styles.css',
+    '/Develop/public/index.js',
+    '/Develop/public/serviceWorker.js'
 ];
 
 const cacheName = 'myCache';
@@ -22,12 +22,27 @@ self.addEventListener('install', function (event) {
 
 //This runs every time the fetch function is called in our project
 self.addEventListener('fetch', function (event) {
-    if (event.request.clone(), method == 'POST') {
+    //http://localhost:3000
+    //index.html
 
-        //detect if we are offline
-        fetch(event.request.clone()).catch(function (error) {
-            //save the information about our request 
-            //so that we can resend the data to the server when we are back online
-        });
+    if (event.request.clone().method === 'GET') {
+        event.respondWith(
+            caches.match(event.request) //identifying the files we need based of off the url
+                .then(function (response) {
+                    if (response) {
+                        console.log('Network request for ', event.request.url);
+                        return response;
+                    }
+
+                    //getting the files
+                    return fetch(event.request).then(function (response) {
+                        return caches.open(cacheName).then(function (cache) {
+                            cache.put(event.request.url, response.clone());
+                            return response;
+                        });
+                    });
+
+                })
+        )
     }
 });
