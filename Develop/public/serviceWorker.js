@@ -1,8 +1,8 @@
 const filesToCache = [
-    '/Develop/public/index.html',
-    '/Develop/public/styles.css',
-    '/Develop/public/index.js',
-    '/Develop/public/serviceWorker.js'
+    '/index.html',
+    '/styles.css',
+    '/index.js',
+    '/serviceWorker.js'
 ];
 
 const cacheName = 'myCache';

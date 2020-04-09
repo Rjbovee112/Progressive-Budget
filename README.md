@@ -65,9 +65,14 @@ THEN that will be shown on the page, and added to their transaction history when
 
 ************
 
-I have the ablility to updated everything while online.  All that works.  I have been able to cache everything online as well.  But I have not been able to save to cache offline, then once it returns the information back online.  I have been working with a tutor to trying to get this figured out.  It is very close to being done.  And I will try to complete the rest this week.  
+I was able to get everything to work being online and offline.
 
-Thanks!
+I have commited the information to heroku.
+
+https://budgetracker84.herokuapp.com/
+
+Somewhere I lost how to connect the CSS to the application.
 
 
 ************
+
