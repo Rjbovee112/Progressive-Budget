@@ -74,7 +74,7 @@ You will be employer-competitive if you are able to:
 
 Progressive-Budget
 
-************
+*****
 
 The reason for this app is to create a budget tracker.  The user is able to input information in the amount and type, and it will graph how much money you have spent.
 
@@ -82,17 +82,17 @@ The reason for this app is to create a budget tracker.  The user is able to inpu
 
 Tech that has been used in the app is 
 
-HTML
-CSS
-JAVASCRIPT
-NODE
+* HTML
+* CSS
+* JAVASCRIPT
+* NODE
     Dependencies
       -compression
       -express
       -lite-server
       -mongoose
       -morgan
-Heroku
+*Heroku
 
 *****
 
@@ -105,6 +105,12 @@ I was able to get the entire app up and running with help from my tutor.
 The application is now fully able to take in information online and save it offline and then be able to pull it back once you go online again.
 
 It has been submitted to Heroku and is now fully functional.
+
+![SSH Instructions 6](Develop/assets/logon.PNG"SSH Instructions 6")
+
+![SSH Instructions 6](Develop/assets/datachange.PNG"SSH Instructions 6")
+
+
 
 
 https://budgetracker84.herokuapp.com/
