@@ -28,7 +28,7 @@ You will be employer-competitive if you are able to:
 
 ## Homework: Budget Tracker
 
-* In this assignment, you'll build a budgeting app to keep track of personal finances. You'll utilize IndexedDB, cache API, and Service Workers to provide an offline experience for the application.
+In this assignment, you'll build a budgeting app to keep track of personal finances. You'll utilize IndexedDB, cache API, and Service Workers to provide an offline experience for the application.
 
 *****
 
@@ -54,7 +54,7 @@ TECH USED
 
 *****
 
-# PROBLEMS 
+## PROBLEMS 
 
 I was able to get the app working to the point where everything online worked.  But I was not able to get the offline function to work.  
 
@@ -62,15 +62,17 @@ I was able to get the entire app up and running with help from my tutor.
 
 *****
 
-# READY TO RUN
+## READY TO RUN
 
 The application is now fully able to take in information online and save it offline and then be able to pull it back once you go online again.
 
 It has been submitted to Heroku and is now fully functional.
 
+This project was created by Robert Bovee with the help of a tutor to connect the online/offline function.
+
 *****
 
-# LOAD/DATA INPUT 
+## LOAD/DATA INPUT 
 
 ![SSH Instructions 6](./assets/datachange.PNG" SSH Instructions 6")
 
@@ -79,7 +81,7 @@ It has been submitted to Heroku and is now fully functional.
 
 *****
 
-#WORKING APP
+## WORKING APP
 
 https://budgetracker84.herokuapp.com/
 
