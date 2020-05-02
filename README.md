@@ -28,12 +28,15 @@ TECH USED
 * CSS
 * JAVASCRIPT
 * NODE
+    
     Dependencies
+      
       * compression
       * express
       * lite-server
       * mongoose
       * morgan
+      
 * Heroku
 * Lighthouse
 * Minification
