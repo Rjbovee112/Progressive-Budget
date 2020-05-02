@@ -36,7 +36,7 @@ TECH USED
       * lite-server
       * mongoose
       * morgan
-      
+
 * Heroku
 * Lighthouse
 * Minification
@@ -44,6 +44,12 @@ TECH USED
 * PWAs
 * Service Workers
 * Webpack
+
+*****
+
+## HOW TO USE
+
+Enter data into the "name of transacation" and "transcation amout".  Once the data is entered there, you can either add funds, or subtract funds.  Once data is added or subtracted a graph will be displayed and changed based on those data inputs.
 
 *****
 
@@ -69,9 +75,13 @@ Although I had trouble creating this project, using webpack and Lighthouse was f
 
 ## LOAD/DATA INPUT 
 
-![SSH Instructions 6](./assets/datachange.PNG" SSH Instructions 6")
+This is what the log in page looks like with out any data input.
 
-![SSH Instructions 6](./assets/logon.PNG" SSH Instructions 6")
+![SSH Instructions 6](./logon.PNG" SSH Instructions 6")
+
+After you have submitted data, the graph starts to show. It will change based on adding or subtracking the data in the above data entry points.
+
+![SSH Instructions 6](./assets/datachange.PNG" SSH Instructions 6")
 
 
 *****
