@@ -106,9 +106,9 @@ The application is now fully able to take in information online and save it offl
 
 It has been submitted to Heroku and is now fully functional.
 
-![SSH Instructions 6](./Develop/assets/datachange.PNG"SSH Instructions 6")
+![SSH Instructions 6](./Develop/assets/datachange.PNG" SSH Instructions 6")
 
-![SSH Instructions 6](./Develop/assets/logon.PNG"SSH Instructions 6")
+![SSH Instructions 6](./Develop/assets/logon.PNG" SSH Instructions 6")
 
 
 
