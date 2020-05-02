@@ -77,11 +77,11 @@ Although I had trouble creating this project, using webpack and Lighthouse was f
 
 This is what the log in page looks like with out any data input.
 
-![SSH Instructions 6](./assets/logon.PNG"  SSH Instructions 6")
+![Load Page](./Develop/assets/logon.PNG"  SSH Instructions 6")
 
 After you have submitted data, the graph starts to show. It will change based on adding or subtracking the data in the above data entry points.
 
-![SSH Instructions 6](./assets/datachange.PNG " SSH Instructions 6")
+![Data](.Develop/assets/datachange.PNG " SSH Instructions 6")
 
 ![SSH Instructions 6](./assets/City.PNG "SSH Instructions 6")
 
