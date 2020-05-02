@@ -1,33 +1,5 @@
 # Unit 18: Web Performance
 
-## Overview
-
-In this unit we will cover measuring and optimizing the performance of web applications. Today many users around the world access the web from older mobile devices on slower connections. As web applications continue to grow both in size and complexity, so do their load times. In order to ensure all users have a good experience, optimizing performance is an important consideration.
-
-Chrome Devtools and Google Lighthouse will be our primary tools for measuring web application performance. Devtools allows us to monitor network traffic and inspect the size of resources downloaded to the browser such as HTML, CSS, JavaScript and images. Lighthouse provides a performance scoring system based on metrics such as application bundle size, time to interaction, time to first meaningful paint, and more.
-
-In order to deliver smaller application bundle sizes to the client, we'll perform several optimizations that involve compressing assets. This includes minifying JavaScript and CSS files, as well as compressing images. Another technique utilized to improve initial bundle size will be lazy loading, where we will defer loading certain assets until they're needed by the application.
-
-This unit will also focus on Progressive Web Apps (PWAs). Progressive web apps aim to blend the benefits of a traditional browser experience with those of a mobile application. PWAs may utilize the Service Worker and Cache APIs to cache assets and API responses to ensure applications work without an internet connection.
-
-We'll conclude this unit with an overview of webpack, a module bundler for JavaScript. Webpack eases the development of front end web applications by automating many of the optimizations performed earlier in the unit.
-
-## Key Topics
-
-* Lighthouse
-
-* Lazy Loading
-
-* Minification
-
-* Compression
-
-* PWAs
-
-* Service Workers
-
-* Webpack
-
 ## Comprehension Check
 
 You will be employer-ready if you can answer the following questions:
@@ -58,43 +30,31 @@ You will be employer-competitive if you are able to:
 
 * In this assignment, you'll build a budgeting app to keep track of personal finances. You'll utilize IndexedDB, cache API, and Service Workers to provide an offline experience for the application.
 
-## Helpful Links
-
-* [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
-
-* [Measure Web Performance With The RAIL Model](https://developers.google.com/web/fundamentals/performance/rail)
-
-* [Audit the Performance of Your Web Application](https://developers.google.com/web/fundamentals/performance/audit/)
-
-* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-
-* [Your First Progressive Web App](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/)
-
-
-
-Progressive-Budget
-
 *****
 
-The reason for this app is to create a budget tracker.  The user is able to input information in the amount and type, and it will graph how much money you have spent.
-
-*****
-
-Tech that has been used in the app is 
+TECH USED
 
 * HTML
 * CSS
 * JAVASCRIPT
 * NODE
     Dependencies
-      -compression
-      -express
-      -lite-server
-      -mongoose
-      -morgan
-*Heroku
+      * compression
+      * express
+      * lite-server
+      * mongoose
+      * morgan
+* Heroku
+* Lighthouse
+* Minification
+* Compression
+* PWAs
+* Service Workers
+* Webpack
 
 *****
+
+# PROBLEMS 
 
 I was able to get the app working to the point where everything online worked.  But I was not able to get the offline function to work.  
 
@@ -102,16 +62,24 @@ I was able to get the entire app up and running with help from my tutor.
 
 *****
 
+# READY TO RUN
+
 The application is now fully able to take in information online and save it offline and then be able to pull it back once you go online again.
 
 It has been submitted to Heroku and is now fully functional.
 
-![SSH Instructions 6](./Develop/assets/datachange.PNG" SSH Instructions 6")
+*****
 
-![SSH Instructions 6](./Develop/assets/logon.PNG" SSH Instructions 6")
+# LOAD/DATA INPUT 
+
+![SSH Instructions 6](./assets/datachange.PNG" SSH Instructions 6")
+
+![SSH Instructions 6](./assets/logon.PNG" SSH Instructions 6")
 
 
+*****
 
+#WORKING APP
 
 https://budgetracker84.herokuapp.com/
 
